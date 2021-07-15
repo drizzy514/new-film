@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+
+
+
+
+
+
+
+    <main>
+
+        <header class="py-3 mb-2 text-center">
+          <div class="container">
+            <h1 class="h3 mb-0">Movies catalog</h1>
+          </div>
+        </header>
+    
+    
+        <div class="container-xl">
+          <div class="row">
+            <div class="col-md-4 mb-4">
+              <div class="container">
+                <section class="mb-4">
+                  <h2 class="sr-only">Movie search form</h2>
+    
+                  <form class="js-search-form"  method="GET" >
+                    <div class="form-group">
+                      <input class="form-control  input-search title-input" type="search" name="title" placeholder="search..."
+                        aria-label="Title">
+                    
+    
+                   
+                    </div>
+    
+    
+                    <button class="btn btn-primary btn-block" type="submit">Search</button>
+                  </form>
+                </section>
+    
+                <section class="mb-4 card p-3">
+                  <h2>Bookmarked movies</h2>
+                  <ul class="bookmarked-movies list-unstyled  list-group liked-movies">
+                   
+                  </ul>
+                </section>
+              </div>
+            </div>
+    
+    
+            <section class="col-md-8">
+              <h2 class="h5"></h2>
+              <div class="alert alert-info">Use the form on the left to search for a movie
+    
+    
+    
+              </div>
+    
+              <ul class="list-unstyled d-flex overflow-auto align-items-center film-wrapper">
+               
+              </ul>
+            </section>
+          </div><!-- row -->
+        </div><!-- container -->
+    
+      </main>
+    
+  <script src="js/main.js"></script>  
+</body>
+</html>
